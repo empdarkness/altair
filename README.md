@@ -1,5 +1,5 @@
 
-# Altair
+# Altair - Command List
 ### Warframe
 - **Enemy**  
 	 - Usage: `!enemy "Enemy" primary/melee CurrentLevel MissionLevel new/old/current`
