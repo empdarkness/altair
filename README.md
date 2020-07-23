@@ -1,7 +1,6 @@
-## Altair
-Detailed command list:
-
- - **Enemy**  
+# Altair
+### Warframe
+- **Enemy**  
 	 - [ ] Usage: `!enemy "Enemy" primary/melee CurrentLevel MissionLevel new/old/current`
 		 - [ ] Calculates DPH, DPS, Armor, Health, Shields, EHP, and Damage Reduction
 		 - [ ] Can use old/new/current scaling formulas. Default usage is current scaling, If mission level is above 100, it will change to calculate for Steel Path Scaling. You can override this.
