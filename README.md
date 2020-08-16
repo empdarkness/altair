@@ -21,6 +21,9 @@
 - **Status**
 	- Usage: `!status BaseStatusChance AddedStatusChance`
 		- Literally just a status calculator.
+- **Riven**
+	- Usage: `!riven <MR REQUIREMENT> <MODRANK> <ROLLS>`
+		- Calculates Kuva spent and the Endo you would obtain from disolving riven mods.
 - **Baro**
 	- Usage: `!baro`
 		- Posts Baro Ki'Teers current inventory.
