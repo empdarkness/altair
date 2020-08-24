@@ -24,6 +24,7 @@
 - **Riven**
 	- Usage: `!riven <MR REQUIREMENT> <MODRANK> <ROLLS>`
 		- Calculates Kuva spent and the Endo you would obtain from disolving riven mods.
+		- Endo cost is estimated since we don't have an exact formula.
 - **Baro**
 	- Usage: `!baro`
 		- Posts Baro Ki'Teers current inventory.
@@ -31,3 +32,8 @@
 - **Nightwave**
 	- Usage: `!nw`
 		- Posts current nightwave with standing rewards.
+- **Amp**
+	- Usage: `!amp <number combo>`
+		- Ex. `!amp 227
+		- Posts an embed with stats for both primary and alternative fire for the amp.
+
