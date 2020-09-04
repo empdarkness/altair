@@ -25,6 +25,10 @@
 	- Usage: `!riven <MR REQUIREMENT> <MODRANK> <ROLLS>`
 		- Calculates Kuva spent and the Endo you would obtain from disolving riven mods.
 		- Endo cost is estimated since we don't have an exact formula.
+- **RM**
+	- Usage: `!rm <weapon>`
+		- Gets cheapest online riven for specified weapon from riven.market
+		- The posted embed includes riven stats and a copy-paste message
 - **Baro**
 	- Usage: `!baro`
 		- Posts Baro Ki'Teers current inventory.
