@@ -1,6 +1,6 @@
 ### This is a full list of arguments for the `!rm` command.
 -  Usage: !rm kronen --p CritDmg,CritChance --n Impact
-- If using arguments and the weapon has multiple words, you need to put quotes around the full name.
+- If using arguments and the weapon has multiple words, **you need to put quotes around the full name**.
 
 |Extra Arguments|Description|
 |--|--|
