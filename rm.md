@@ -1,21 +1,26 @@
-### This is a full list of stats for the `!rm` command.
+### This is a full list of arguments for the `!rm` command.
 -  Usage: !rm kronen --p CritDmg,CritChance --n Impact
 
-|Riven Stat|Command Argument|
+|Extra Arguments|Description|
+|--|--|
+|Any|Riven can have any stats|
+|None|**Negative exclusive**<br>Riven has no negative|
+
+|Riven Stat|Correct Arguments|
 |--|--|
 |Damage|Damage|
 |Multishot|Multi|
-|Attack Speed|Speed|
-|Fire Rate|Speed|
+|Attack Speed / Fire Rate|Speed|
 |Damage to Corpus|Corpus|
-|Damage to Corpus|Grineer|
-|Damage to Corpus|Infested|
+|Damage to Grineer|Grineer|
+|Damage to Infested|Infested|
 |Impact|Impact|
 |Puncture|Puncture|
 |Slash|Slash|
 |Cold|Cold|
 |Electric|Electric|
-|Heat|Toxin|
+|Heat|Heat|
+|Toxin|Toxin|
 |Channeling Damage|ChannelDMG|
 |Channeling Efficiency|ChannelEff|
 |Crit on Slide|Slide|
