@@ -25,7 +25,7 @@
 |Toxin|Toxin|
 |Channeling Damage|ChannelDMG|
 |Channeling Efficiency|ChannelEff|
-|Crit on Slide|Slide|
+|Critical Chance on Slide|Slide|
 |Critical Damage|CritDmg|
 |Critical Chance|CritChance|
 |Finisher Damage|Finisher|
