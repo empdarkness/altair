@@ -3,8 +3,9 @@
 
 |Extra Arguments|Description|
 |--|--|
-|Any|Riven can have any stats|
-|None|**Negative exclusive**<br>Riven has no negative|
+|Any|Riven has any positive or any negative|
+|All|Any negative or none
+|None|Riven has no negative|
 
 |Riven Stat|Correct Arguments|
 |--|--|
