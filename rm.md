@@ -4,7 +4,7 @@
 |Extra Arguments|Description|
 |--|--|
 |Any|Riven has any positive or any negative|
-|All|Any negative or none
+|all|Any negative or none
 |None|Riven has no negative|
 
 |Riven Stat|Correct Arguments|
