@@ -1,5 +1,9 @@
 ### This is a full list of arguments for the `!rm` command.
--  Usage: !rm kronen --p CritDmg,CritChance --n Impact
+-  Usage: !rm kronen -p CritDmg,CritChance -n Impact
+
+- `-p` to designate positives
+- `-n` to designate negatives
+- `-d` to set grading disposition, works best if retrieved mods are rank 8
 - If using arguments and the weapon has multiple words, **you need to put quotes around the full name**.
 - The arguments are **case-sensitive**
 
