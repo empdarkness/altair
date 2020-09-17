@@ -3,7 +3,7 @@
 
 - `-p` to designate positives
 - `-n` to designate negatives
-- `-d` to set grading disposition, works best if retrieved mods are rank 8
+- `-g` to turn on grading, it will attempt to grade every variant of the weapon with their respective dispositions for that riven.
 - If using arguments and the weapon has multiple words, **you need to put quotes around the full name**.
 - The arguments are **case-sensitive**
 
