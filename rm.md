@@ -3,7 +3,7 @@
 
 - `-p` to designate positives
 - `-n` to designate negatives
-- `-g` to turn on grading, it will attempt to grade every variant of the weapon with their respective dispositions for that riven.
+- `-g` to turn on grading, it will attempt to grade every variant of the weapon with their respective dispositions for that riven. This will attempt to grade as if the mod was maxed.
 - If using arguments and the weapon has multiple words, **you need to put quotes around the full name**.
 - The arguments are **case-sensitive**
 
