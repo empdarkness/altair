@@ -1,7 +1,6 @@
 
-### [Invite to your server](https://discord.com/oauth2/authorize?client_id=522879744786563075&permissions=0&scope=bot)
-# Altair - Command List
-### Warframe
+# Altair - Command List [Invite](https://discord.com/oauth2/authorize?client_id=522879744786563075&permissions=0&scope=bot)
+## Warframe
 - **Enemy**  
 	 - Usage: `!enemy "Enemy" CurrentLevel MissionLevel new/old/current`
 		 - Calculates DPH, Armor, Health, Shields, EHP, and Damage Reduction
