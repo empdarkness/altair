@@ -1,5 +1,5 @@
-### This is a full list of arguments for the `!rm` command.
--  Usage: !rm kronen -p CritDmg,CritChance -n Impact
+### This is a full list of arguments for the `a/rm` command.
+-  Usage: `a/rm kronen -p CritDmg,CritChance -n Impact`
 
 - `-p` to designate positives
 - `-n` to designate negatives
