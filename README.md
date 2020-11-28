@@ -24,9 +24,11 @@
 	- Usage: `a/riven <MR REQUIREMENT> <MODRANK> <ROLLS>`
 		- Calculates Kuva spent and the Endo you would obtain from disolving riven mods.
 		- Endo cost is estimated since we don't have an exact formula.
-- **RM**
-	- Usage: `a/rm <weapon> <optional args>`
-		- Gets cheapest online riven for specified weapon from riven.market
+- **Riven Browser**
+	- Usage: `a/r <weapon> <optional args>`
+		- Gets list of rivens from provided args.
+		- Sorted by price
+		- Warframe.Market rivens have a filter. They will not appear if the owner has not been online in 7 days.
 		- The posted embed includes riven stats and a copy-paste message
 		- Argument usage can be found [**here**](https://github.com/empdarkness/altair/blob/master/rm.md)
 - **Baro**
