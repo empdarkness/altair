@@ -42,6 +42,6 @@
 		- Posts current nightwave with standing rewards.
 - **Amp**
 	- Usage: `a/amp <number combo>`
-		- Ex. `!amp 227
+		- Ex. `!amp 227`
 		- Posts an embed with stats for both primary and alternative fire for the amp.
 
