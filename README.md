@@ -33,8 +33,10 @@
 		- Argument usage can be found [**here**](https://github.com/empdarkness/altair/blob/master/rm.md)
 - **Baro**
 	- Usage: `a/baro`
-		- Posts Baro Ki'Teers current inventory.
+		- Posts Baro Ki'Teer's current inventory as an image.
 			- If he is not available, it will post an embed telling when he will arrive and where.
+	- Alt: `a/b`
+		- Posts Baro'Ki'Teer's current inventory in text form.
 - **Nightwave**
 	- Usage: `a/nw`
 		- Posts current nightwave with standing rewards.
