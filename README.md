@@ -5,7 +5,7 @@
 	 - Usage: `a/s "Enemy or Specter" CurrentLevel MissionLevel new/old/current`
 		 - Calculates DPH, Armor, Health, Shields, EHP, and Damage Reduction
 		 - Can use old/new/current scaling formulas. Default usage is current scaling, If mission level is above 100, it will change to calculate for Steel Path Scaling. You can override this.
-		 - Some enemies do not have public base damage values. As such, the only damage related thing shown is their multiplier.
+		 - Enemies do not have public base damage values. As such, the only damage related thing shown is their multiplier.
 		 - When calculating things such as EHP, there is no consideration in damage types. 
 		 - You can append `-w Exergis` to the command to have it calculate the scaled damage of any weapon.
 - **Arby**
