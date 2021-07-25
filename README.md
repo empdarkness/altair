@@ -1,5 +1,21 @@
 
 # Altair - Command List - [Invite](https://discord.com/oauth2/authorize?client_id=522879744786563075&permissions=0&scope=bot)
+## Misc
+- **Coinflip**
+	- Usage: `a/flip`
+		- This also involves the coin being able to land on its side. 1/6000
+- **Quoter**
+	- Usage: `a/quote id` - Must be called in the channel to search for the message
+	- Alias: `a/q id`
+	- Usage: `a/quotechat #channel id`
+	- Alias: `a/qc #channel id`
+
+- **Remindme**
+	- Usage: `a/remindme timestamp reminder`
+	- Removal Usage: `a/remindme remove ref_id`
+		- Use [this website](https://www.epochconverter.com/) to generate an appropriate Epoch timestamp.
+		- You must share a server with the bot in order to receive the reminder, otherwise it would fail to DM you and would be removed from the database.
+
 ## Warframe
 - **Scaling Calculator**  
 	 - Usage: `a/s "Enemy or Specter" CurrentLevel MissionLevel new/old/current`
