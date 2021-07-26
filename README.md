@@ -60,4 +60,15 @@
 	- Usage: `a/amp <number combo>`
 		- Ex. `!amp 227`
 		- Posts an embed with stats for both primary and alternative fire for the amp.
-
+- **WFConfig**
+	- Usage: `a/wfconfig channel_type channel_mention`
+	- Ex: `a/wfconfig arbitration #general`
+	- Types: baro, gftl, invasions, arbitration
+		- Automatic posting when one of the four things occurs:
+			- Baro Ki'Teer
+			- Gift From the Lotus
+			- Invasions (Orokin Reactor/Catalyst only)
+			- Arbitrations (with optional role mentions, see below)
+				- Factions: Grineer, Infested, Corpus, Orokin
+				- Types: Grineer Defense, Corpus Survival..
+				- Nodes: Sechura, Helene, Hydron...
