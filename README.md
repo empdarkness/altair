@@ -69,6 +69,6 @@
 			- Gift From the Lotus
 			- Invasions (Orokin Reactor/Catalyst only)
 			- Arbitrations (with optional role mentions, see below)
-				- Factions: Grineer, Infested, Corpus, Orokin
-				- Types: Grineer Defense, Corpus Survival..
-				- Nodes: Sechura, Helene, Hydron...
+				- Factions: `Grineer`, `Infested`, `Corpus`, `Orokin`
+				- Types: `Grineer Defense`, `Corpus Survival`..
+				- Nodes: `Sechura`, `Helene`, `Hydron`...
