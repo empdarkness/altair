@@ -9,7 +9,7 @@
 
 |Extra Arguments|Description|
 |--|--|
-|Any|Riven has any positive or any negative|
+|Any|Riven has any positive or any negative (must have a negative)|
 |all|Any negative or none
 |None|Riven has no negative|
 
