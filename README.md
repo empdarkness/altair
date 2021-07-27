@@ -15,6 +15,7 @@
 	- Removal Usage: `a/remindme remove ref_id`
 		- Use [this website](https://www.epochconverter.com/) to generate an appropriate Epoch timestamp.
 		- You must share a server with the bot in order to receive the reminder, otherwise it would fail to DM you and would be removed from the database.
+		- Make sure your DMs are open, as the bot will attempt you message you. It will still be removed if it fails to send.
 
 ## Warframe
 - **Scaling Calculator**  
