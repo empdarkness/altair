@@ -22,7 +22,7 @@
 	- Usage: `a/sa dm/#channel weapon *args`
 	- Ex: `a/sa dm kronen -p critdmg,range -n finisher -2p1n`
 	 	- To set it up to a guild channel, you will need administrator perms.
-	 	- Behavior is extremely similar to the riven browser, it needs to be using the same arguments, such as `critdmg` or `initc`
+	 	- Behavior is extremely similar to the riven browser, it needs to be using the same [arguments](https://github.com/empdarkness/altair/blob/master/rm.md), such as `critdmg` or `initc`
 		- When setting up a configuration, it will try to find an exact match for what you set it to.
 	- Additional args: 
 	 	- `-t 1337` - plat threshold, it will only post rivens equal to or below this price
