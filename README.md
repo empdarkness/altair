@@ -18,6 +18,32 @@
 		- Make sure your DMs are open, as the bot will attempt you message you. It will still be removed if it fails to send.
 
 ## Warframe
+- **Riven Sniper - RM**
+	- Usage: `a/sa dm/#channel weapon *args`
+	- Ex: `a/sa dm kronen -p critdmg,range -n finisher -2p1n`
+	 	- To set it up to a guild channel, you will need administrator perms.
+	 	- Behavior is extremely similar to the riven browser, it needs to be using the same arguments, such as `critdmg` or `initc`
+		- When setting up a configuration, it will try to find an exact match for what you set it to.
+	- Additional args: 
+	 	- `-t 1337` - plat threshold, it will only post rivens equal to or below this price
+	 	- `-2p1n` - Adding this will make the configuration only look for rivens with 2 positives and 1 negative.
+	- Negative aliases (Be aware these aliases are standalone.):
+		- `-n harmless` will add Impact, Puncture, Slash, Finisher, ComboGainLost, Zoom, & Slide
+		- `-n faction` will add Grineer, Infested, Corpus
+	- Alt Usage:
+	 	- `a/sr id` - Snipe config removal, if linked to server channel, you can force remove it with admin perms
+	 	- `a/sl` - View the total amount of listings setup. If you use it in DMs, it will look for ones tied to you, and if used in a guild, it will look up ones tied to the guild.
+
+			
+
+- **Riven Browser**
+	- Usage: `a/r <weapon> <optional args>`
+		- Gets list of rivens from provided args.
+		- Sorted by price
+		- Warframe.Market rivens have a filter. They will not appear if the owner has not been online in 7 days.
+		- The posted embed includes riven stats and a copy-paste message
+		- Argument usage can be found [**here**](https://github.com/empdarkness/altair/blob/master/rm.md)
+		
 - **Scaling Calculator**  
 	 - Usage: `a/s "Enemy or Specter" CurrentLevel MissionLevel new/old/current`
 		 - Calculates DPH, Armor, Health, Shields, EHP, and Damage Reduction
@@ -41,13 +67,6 @@
 	- Usage: `a/riven <MR REQUIREMENT> <MODRANK> <ROLLS>`
 		- Calculates Kuva spent and the Endo you would obtain from disolving riven mods.
 		- Endo cost is estimated since we don't have an exact formula.
-- **Riven Browser**
-	- Usage: `a/r <weapon> <optional args>`
-		- Gets list of rivens from provided args.
-		- Sorted by price
-		- Warframe.Market rivens have a filter. They will not appear if the owner has not been online in 7 days.
-		- The posted embed includes riven stats and a copy-paste message
-		- Argument usage can be found [**here**](https://github.com/empdarkness/altair/blob/master/rm.md)
 - **Baro**
 	- Usage: `a/baro`
 		- Posts Baro Ki'Teer's current inventory as an image.
