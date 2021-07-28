@@ -20,13 +20,14 @@
 ## Warframe
 - **Riven Sniper - RM**
 	- Usage: `a/sa dm/#channel weapon *args`
-	- Ex: `a/sa dm kronen -p critdmg,range -n finisher -2p1n`
+	- Ex: `a/sa dm kronen -p critdmg,range -n finisher -2p1n -c "<@123456789>`
 	 	- To set it up to a guild channel, you will need administrator perms.
 	 	- Behavior is extremely similar to the riven browser, it needs to be using the same [arguments](https://github.com/empdarkness/altair/blob/master/rm.md), such as `critdmg` or `initc`
 		- When setting up a configuration, it will try to find an exact match for what you set it to.
 	- Additional args: 
 	 	- `-t 1337` - plat threshold, it will only post rivens equal to or below this price
 	 	- `-2p1n` - Adding this will make the configuration only look for rivens with 2 positives and 1 negative.
+	 	- `-c "<@123456789"` - Pinging a role will automatically set it with the text. You can use up to 255 characters.
 	- Negative aliases (Be aware these aliases are standalone.):
 		- `-n harmless` will add Impact, Puncture, Slash, Finisher, ComboGainLost, Zoom, & Slide
 		- `-n faction` will add Grineer, Infested, Corpus
