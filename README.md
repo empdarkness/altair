@@ -23,17 +23,18 @@
 	- Ex: `a/sa dm kronen -p critdmg,range -n finisher -2p1n -c "<@&123456789>`
 	 	- To set it up to a guild channel, you will need administrator perms.
 	 	- Behavior is extremely similar to the riven browser, it needs to be using the same [arguments](https://github.com/empdarkness/altair/blob/master/rm.md), such as `critdmg` or `initc`
-		- When setting up a configuration, it will try to find an exact match for what you set it to.
+		- The amount of positive and negative stats you can have is uncapped, however if you go above 3 on positive, you must have at least 3 of the positive stats for it to be considered a match.
 	- Additional args: 
 	 	- `-t 1337` - plat threshold, it will only post rivens equal to or below this price
 	 	- `-2p1n` - Adding this will make the configuration only look for rivens with 2 positives and 1 negative.
 	 	- `-c "<@123456789"` - You can use up to 255 characters. In order to use a role, type it out like you're gonna ping it.
-	- Negative aliases (Be aware these aliases are standalone.):
+	- Aliases (can be applied with additional stats):
 		- `-n harmless` will add Impact, Puncture, Slash, Finisher, ComboGainLost, Zoom, & Slide
-		- `-n faction` will add Grineer, Infested, Corpus
+		- `-p faction` or `-n faction` - Adds Damage to Grineer, Damage to Corpus, and Damage to Infested.
 	- Alt Usage:
 	 	- `a/sr id` - Snipe config removal, if linked to server channel, you can force remove it with admin perms
 	 	- `a/sl` - View the total amount of listings setup. If you use it in DMs, it will look for ones tied to you, and if used in a guild, it will look up ones tied to the guild.
+
 
 			
 
