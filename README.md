@@ -5,7 +5,7 @@
 	- Usage: `a/sa dm/#channel weapon *args`
 	- Ex: `a/sa dm kronen -p critdmg,range -n finisher -2p1n -c "<@&123456789>`
 	 	- To set it up to a guild channel, you will need administrator perms.
-	 	- Behavior is extremely similar to the riven browser, it needs to be using the same [arguments](https://github.com/empdarkness/altair/blob/master/rm.md), such as `critdmg` or `initc`
+	 	- Behavior is extremely similar to the riven browser, it needs to be using the same [arguments](https://github.com/empdarkness/altair/blob/master/rm.md).
 		- The amount of positive and negative stats you can have is uncapped, however if you go above 3 on positive, you must have at least 3 of the positive stats for it to be considered a match.
 	- Additional args: 
 	 	- `-t 1337` - plat threshold, it will only post rivens equal to or below this price
