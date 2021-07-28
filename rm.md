@@ -15,36 +15,34 @@
 
 |Riven Stat|Correct Arguments|
 |--|--|
-|Damage|Damage|
-|Multishot|Multi|
-|Attack Speed / Fire Rate|Speed|
-|Damage to Corpus|Corpus|
-|Damage to Grineer|Grineer|
-|Damage to Infested|Infested|
-|Impact|Impact|
-|Puncture|Puncture|
+|Damage|damage,dmg|
+|Multishot|multi,ms|
+|Attack Speed / Fire Rate|speed,as,fr|
+|Damage to Corpus|corpus,dtc|
+|Damage to Grineer|grineer,dtg|
+|Damage to Infested|infested,dti|
+|Impact|impact,imp|
+|Puncture|puncture,pun|
 |Slash|Slash|
 |Cold|Cold|
 |Electric|Electric|
-|Heat|Heat|
-|Toxin|Toxin|
-|Channeling Damage|ChannelDMG|
-|Channeling Efficiency|ChannelEff|
-|Slide Attack Critical Chance|Slide|
-|Critical Damage|CritDmg|
-|Critical Chance|CritChance|
-|Finisher Damage|Finisher|
-|Flight Speed|Flight|
-|Ammo Maximum|Ammo|
-|Magazine Capacity|Magazine|
+|Heat|heat,fire|
+|Toxin|toxin,poison|
+|Slide Attack Critical Chance|slide|
+|Critical Damage|critdmg,cd|
+|Critical Chance|critchance,cc|
+|Finisher Damage|finisher,fin|
+|Flight Speed|flight|
+|Ammo Maximum|ammo|
+|Magazine Capacity|magazine,mag|
 |Punch Through|Punch|
 |Reload Speed|Reload|
 |Range|Range|
-|Status Chance|StatusC|
-|Status Duration|StatusD|
-|Weapon Recoil|Recoil|
+|Status Chance|statusc,sc|
+|Status Duration|statusd,sd|
+|Weapon Recoil|recoil|
 |Zoom|Zoom|
-|Initial Combo|InitC|
-|Combo Efficiency|ComboEfficiency|
-|Chance to gain extra Combo count|ComboGainExtra|
-|Chance to not gain Combo count|ComboGainLost|
+|Initial Combo|initc,ini|
+|Combo Efficiency|comboefficiency,eff|
+|Chance to gain extra Combo count|combogainextra|
+|Chance to not gain Combo count|combogainlost|
