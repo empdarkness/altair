@@ -17,62 +17,33 @@
 |--|--|
 |Damage|damage/dmg|
 |Multishot|multi/ms|
-|Attack Speed / Fire Rate|speed/as/fr|
+|Fire Rate / Attack Speed|speed/fr/as|
 |Damage to Corpus|corpus/dtc|
 |Damage to Grineer|grineer/dtg|
 |Damage to Infested|infested/dti|
 |Impact|impact/imp|
 |Puncture|puncture/pun|
-|Slash|Slash|
-|Cold|Cold|
-|Electric|Electric|
+|Slash|slash|
+|Cold|cold|
+|Electric|electric/ele|
 |Heat|heat/fire|
-|Toxin|toxin/poison|
-|Slide Attack Critical Chance|slide|
-|Critical Damage|critdmg/cd|
+|Toxin|toxin/tox|
+|Combo Duration|combo|
 |Critical Chance|critchance/cc|
+|Critical Damage|critdmg/cd|
+|Slide Crit|slide|
 |Finisher Damage|finisher/fin|
 |Flight Speed|flight|
-|Ammo Maximum|ammo|a|Damage|damage/dmg|
-|Multishot|multi/ms|
-|Attack Speed / Fire Rate|speed/as/fr|
-|Damage to Corpus|corpus/dtc|
-|Damage to Grineer|grineer/dtg|
-|Damage to Infested|infested/dti|
-|Impact|impact/imp|
-|Puncture|puncture/pun|
-|Slash|Slash|
-|Cold|Cold|
-|Electric|Electric|
-|Heat|heat/fire|
-|Toxin|toxin/poison|
-|Slide Attack Critical Chance|slide|
-|Critical Damage|critdmg/cd|
-|Critical Chance|critchance/cc|
-|Finisher Damage|finisher/fin|
-|Flight Speed|flight|
-|Ammo Maximum|ammo|
-|Magazine Capacity|magazine/mag|
-|Punch Through|Punch|
-|Reload Speed|Reload|
-|Range|Range|
-|Status Chance|statusc/sc|
-|Status Duration|statusd/sd|
-|Weapon Recoil|recoil|
-|Zoom|Zoom|
-|Initial Combo|initc/ini|
-|Combo Efficiency|comboefficiency/eff|
-|Chance to gain extra Combo count|combogainextra|
-|Chance to not gain Combo count|combogainlost|
+|Ammo|ammo|
 |Magazine Capacity|magazine/mag|
 |Punch Through|punch|
 |Reload Speed|reload|
 |Range|range|
 |Status Chance|statusc/sc|
 |Status Duration|statusd/sd|
-|Weapon Recoil|recoil|
+|Recoil|recoil/rec|
 |Zoom|zoom|
 |Initial Combo|initc/ini|
-|Combo Efficiency|comboefficiency/eff|
+|Melee Combo Efficiency|comboefficiency/eff|
 |Chance to gain extra Combo count|combogainextra|
 |Chance to not gain Combo count|combogainlost|
