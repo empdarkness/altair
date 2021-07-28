@@ -1,22 +1,5 @@
 
 # Altair - Command List - [Invite](https://discord.com/oauth2/authorize?client_id=522879744786563075&permissions=0&scope=bot)
-## Misc
-- **Coinflip**
-	- Usage: `a/flip`
-		- This also involves the coin being able to land on its side. 1/6000
-- **Quoter**
-	- Usage: `a/quote id` - Must be called in the channel to search for the message
-	- Alias: `a/q id`
-	- Usage: `a/quotechat #channel id`
-	- Alias: `a/qc #channel id`
-
-- **Remindme**
-	- Usage: `a/remindme timestamp reminder`
-	- Removal Usage: `a/remindme remove ref_id`
-		- Use [this website](https://www.epochconverter.com/) to generate an appropriate Epoch timestamp.
-		- You must share a server with the bot in order to receive the reminder, otherwise it would fail to DM you and would be removed from the database.
-		- Make sure your DMs are open, as the bot will attempt you message you. It will still be removed if it fails to send.
-
 ## Warframe
 - **Riven Sniper - RM**
 	- Usage: `a/sa dm/#channel weapon *args`
@@ -34,9 +17,6 @@
 	- Alt Usage:
 	 	- `a/sr id` - Snipe config removal, if linked to server channel, you can force remove it with admin perms
 	 	- `a/sl` - View the total amount of listings setup. If you use it in DMs, it will look for ones tied to you, and if used in a guild, it will look up ones tied to the guild.
-
-
-			
 
 - **Riven Browser**
 	- Usage: `a/r <weapon> <optional args>`
@@ -94,3 +74,19 @@
 				- Factions: `Grineer`, `Infested`, `Corpus`, `Orokin`
 				- Types: `Grineer Defense`, `Corpus Survival`..
 				- Nodes: `Sechura`, `Helene`, `Hydron`...
+## Misc
+- **Coinflip**
+	- Usage: `a/flip`
+		- This also involves the coin being able to land on its side. 1/6000
+- **Quoter**
+	- Usage: `a/quote id` - Must be called in the channel to search for the message
+	- Alias: `a/q id`
+	- Usage: `a/quotechat #channel id`
+	- Alias: `a/qc #channel id`
+
+- **Remindme**
+	- Usage: `a/remindme timestamp reminder`
+	- Removal Usage: `a/remindme remove ref_id`
+		- Use [this website](https://www.epochconverter.com/) to generate an appropriate Epoch timestamp.
+		- You must share a server with the bot in order to receive the reminder, otherwise it would fail to DM you and would be removed from the database.
+		- Make sure your DMs are open, as the bot will attempt you message you. It will still be removed if it fails to send.
