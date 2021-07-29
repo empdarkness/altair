@@ -14,6 +14,13 @@
 	- Alt Usage:
 	 	- `a/sr id` - Snipe config removal, if linked to server channel, you can force remove it with admin perms
 	 	- `a/sl` - View the total amount of listings setup. If you use it in DMs, it will look for ones tied to you, and if used in a guild, it will look up ones tied to the guild.
+	 	- `a/sb dm/guild -a/-r/-c user` - RM User Blacklist (Guild/Direct Message)
+	 		- Ex: `a/sb dm -a user1,user2,user3`
+			- You will need admin perms to add a user to the guild blacklist. It will default to DM mode if you try and do not have admin perms.
+			- Modes:
+				- `-a` - Adds to blacklist
+				- `-r` - Removes from blacklist
+				- `-c` - Clears blacklist, user arg wont do anything
 
 - **Riven Browser**
 	- Usage: `a/r <weapon> <optional args>`
