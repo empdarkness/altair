@@ -10,6 +10,7 @@
 	- Additional args: 
 	 	- `-t 1337` - plat threshold, it will only post rivens equal to or below this price
 	 	- `-2p1n` - Adding this will make the configuration only look for rivens with 2 positives and 1 negative.
+	 	- `-g` - Grades it for every variant of the weapon.
 	 	- `-c "<@123456789"` - You can use up to 255 characters. In order to use a role, type it out like you're gonna ping it.
 	- Alt Usage:
 	 	- `a/sr id` - Snipe config removal, if linked to server channel, you can force remove it with admin perms
