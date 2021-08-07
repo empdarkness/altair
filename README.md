@@ -23,6 +23,11 @@
 				- `-a` - Adds to blacklist
 				- `-r` - Removes from blacklist
 				- `-c` - Clears blacklist, user arg wont do anything
+
+- **Manual Grading**
+	- Usage: `a/grade tenet_envoy 64cc 52.4cd 45.8ms -41.3impact` `a/grade vectis 69.5ele 88.8cd 76.8heat 58.5recoil`
+		- You only need to designate a non-recoil negative. Recoil is automatically handled as a negative if it has positive stats.
+		
 - **Riven Ranges**
 	- Usage: `a/range Archgun/Rifle/Shotgun/Pistol/Melee -p 3 -n 1 -d 1.5`
 		- `-p` `-n` Designates how many positives/negatives the riven has.
