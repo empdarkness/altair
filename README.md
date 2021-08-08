@@ -1,7 +1,7 @@
 
 # Altair - Command List - [Invite](https://discord.com/oauth2/authorize?client_id=522879744786563075&permissions=0&scope=bot)
 ## Warframe
-- **Riven Sniper - RM**
+- **Riven Sniper - RM & WFM**
 	- Usage: `a/sa dm/#channel weapon *args`
 	- Ex: `a/sa dm kronen -p critdmg,range -n finisher -2p1n -c "<@&123456789>`
 	 	- To set it up to a guild channel, you will need administrator perms.
