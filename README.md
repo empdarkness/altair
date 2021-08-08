@@ -6,7 +6,7 @@
 	- Ex: `a/sa dm kronen -p critdmg,range -n finisher -2p1n -c "<@&123456789>`
 	 	- To set it up to a guild channel, you will need administrator perms.
 	 	- Behavior is extremely similar to the riven browser, it needs to be using the same [arguments](https://github.com/empdarkness/altair/blob/master/rm.md).
-	 	- You cannot use the keywords `Any`, `all`, or `None` in a stat position. You can still use it to designate all weapons.
+	 	- You cannot use the keywords `Any`, `all`, or `None` in a stat position. You can still use `Any` to designate all weapons.
 		- The amount of positive and negative stats you can have is uncapped, however if you go above 3 on positive, you must have at least 3 of the positive stats for it to be considered a match. If you go above 1 negative, it will only need to match one of them.
 	- Additional args: 
 	 	- `-t 1337` - plat threshold, it will only post rivens equal to or below this price
