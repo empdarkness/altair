@@ -87,8 +87,9 @@
 			- Invasions (Orokin Reactor/Catalyst only)
 			- Arbitrations (with optional role mentions, see below)
 				- Factions: `Grineer`, `Infested`, `Corpus`, `Orokin`
-				- Types: `Grineer Defense`, `Corpus Survival`..
-				- Nodes: `Sechura`, `Helene`, `Hydron`...
+				- Types: `Defense`, `Survival`, `Salvage`..
+				- Faction+Types: `Grineer Defense`, `Corpus Survival`..
+				- Nodes: `Sechura`, `Helene`, `Hydron`..
 ## Misc
 - **Coinflip**
 	- Usage: `a/flip`
