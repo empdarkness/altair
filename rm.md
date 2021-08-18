@@ -36,14 +36,14 @@
 |Flight Speed|flight|
 |Ammo|ammo|
 |Magazine Capacity|magazine/mag|
-|Punch Through|punch|
+|Punch Through|punch/pt|
 |Reload Speed|reload|
 |Range|range|
 |Status Chance|statusc/sc|
 |Status Duration|statusd/sd|
 |Recoil|recoil/rec|
-|Zoom|zoom|
-|Initial Combo|initc/ini|
-|Melee Combo Efficiency|comboefficiency/eff|
+|Zoom|zoom/z|
+|Initial Combo|initc/ini/initial|
+|Heavy Efficiency|comboefficiency/eff/heavy|
 |Chance to gain extra Combo count|combogainextra|
 |Chance to not gain Combo count|combogainlost|
