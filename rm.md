@@ -37,7 +37,7 @@
 |Ammo|ammo|
 |Magazine Capacity|magazine/mag|
 |Punch Through|punch/pt|
-|Reload Speed|reload|
+|Reload Speed|reload/rs/rld|
 |Range|range|
 |Status Chance|statusc/sc|
 |Status Duration|statusd/sd|
