@@ -3,7 +3,7 @@
 ## Warframe
 - **Riven Sniper - RM & WFM**
 	- Usage: `a/sa dm/#channel weapon *args`
-	- Ex: `a/sa dm kronen -p critdmg,range -n finisher -2p1n -c "<@&123456789>`
+	- Ex: `a/sa dm kronen -p critdmg range -n finisher -2p1n -c "<@&123456789>`
 	 	- To set it up to a guild channel, you will need administrator perms.
 	 	- Behavior is extremely similar to the riven browser, it needs to be using the same [arguments](https://github.com/empdarkness/altair/blob/master/rm.md).
 	 	- You cannot use the keywords `Any`, `all`, or `None` in a stat position. You can still use `Any` to designate all weapons.
@@ -18,6 +18,7 @@
 	 	- `a/sl` - View the total amount of listings setup. If you use it in DMs, it will look for ones tied to you, and if used in a guild, it will look up ones tied to the guild.
 	 	- `a/sb dm/guild -a/-r/-c user` - RM User Blacklist (Guild/Direct Message)
 	 		- Ex: `a/sb dm -a user1,user2,user3`
+			- View: `a/bl` in dms or guild to view respective list
 			- You will need admin perms to add a user to the guild blacklist. It will default to DM mode if you try and do not have admin perms.
 			- Modes:
 				- `-a` - Adds to blacklist
