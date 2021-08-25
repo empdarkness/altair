@@ -53,11 +53,9 @@
 	- Usage: `a/arby`
 		- Posts current arbitration.
 - **Price**
-	- Usage: `a/price item`
+	- Usage: `a/p item`
 		- Pricechecks an item from warframe.market top orders, sorted by price.
 		- Scrolling embed for both buy and sell orders. Including the copy-paste message.
-	- Alt: `a/p item`
-		- Pricechecks an item and shows all orders in the first embed. (No copy/paste)
 - **Status**
 	- Usage: `a/status BaseStatusChance AddedStatusChance`
 		- Literally just a status calculator.
