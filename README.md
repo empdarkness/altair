@@ -8,7 +8,7 @@
 	- Ex: `a/sa dm kronen -p critdmg range -n finisher -2p1n -c "<@&123456789>`
 	 	- To set it up to a guild channel, you will need administrator perms.
 	 	- Behavior is extremely similar to the riven browser, it needs to be using the same [arguments](https://github.com/empdarkness/altair/blob/master/rm.md).
-	 	- You can use the keywords `Any`, `all`, or `None` in a stat position and `Any` in a weapon position, however you cannot use `Any` on both weapon and a stat, this is by design.
+	 	- You can use the keywords `Any`, `all`, or `None` as the stat and `Any` in a weapon position, however you cannot use `Any` on both weapon and a stat, this is by design.
 	 	- Additionally: The keywords will override the section it is placed in. Only `Any` works in a positive position, all 3 work in the negative position.
 		- The amount of positive and negative stats you can have is uncapped, however if you go above 3 on positive, you must have at least 3 of the positive stats for it to be considered a match. If you go above 1 negative, it will only need to match one of them.
 	- Additional args: 
