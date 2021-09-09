@@ -43,7 +43,7 @@
 |Status Duration|statusd/sd|
 |Recoil|recoil/rec|
 |Zoom|zoom/z|
-|Initial Combo|initc/ini/initial|
+|Initial Combo|initc/ini/initial/ic|
 |Heavy Efficiency|comboefficiency/eff/heavy|
 |Chance to gain extra Combo count|combogainextra|
 |Chance to not gain Combo count|combogainlost|
