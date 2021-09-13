@@ -1,5 +1,5 @@
 
-# Altair - Command List - [Invite](https://discord.com/oauth2/authorize?client_id=522879744786563075&permissions=0&scope=bot)
+# Altair - Command List - [Invite](https://discord.com/oauth2/authorize?client_id=522879744786563075&permissions=0&scope=bot) - [Support Server](https://discord.gg/pByz6CVEKQ)
 
 ### Note: Some commands have slash equals with guided assistance.
 ## Warframe
