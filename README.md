@@ -7,6 +7,7 @@
 	- Usage: `a/sa dm/#channel weapon *args`
 	- Ex: `a/sa dm kronen -p critdmg range -n finisher -2p1n -c "<@&123456789>`
 	 	- To set it up to a guild channel, you will need administrator perms.
+	 	- When specifying a weapon, if a base variant exists, use that one's name.
 	 	- Behavior is extremely similar to the riven browser, it needs to be using the same [arguments](https://github.com/empdarkness/altair/blob/master/rm.md).
 	 	- You can use the keywords `Any`, `all`, or `None` as the stat and `Any` in a weapon position, however you cannot use `Any` on both weapon and a stat, this is by design.
 	 	- Additionally: The keywords will override the section it is placed in. Only `Any` works in a positive position, all 3 work in the negative position.
