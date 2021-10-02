@@ -34,6 +34,7 @@
 	- Usage: `a/grade tenet_envoy 64cc 52.4cd 45.8ms -41.3impact` `a/g vectis 69.5ele 88.8cd 76.8heat 58.5recoil`
 	- Use `-r` and a number between 0 and 8 to grade it based on the riven rank. This argument is optional as it grades it maxed as default.
 		- You only need to designate a non-recoil negative. Recoil is automatically handled as a negative if it has positive stats.
+	- Use `-d #` to override the disposition.
 	- Alt Usage: `a/grade https://warframe.market/auction/613eb4eebf237003f3ffb7a1` (Only wfm links work)
 		
 - **Riven Ranges**
