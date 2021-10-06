@@ -39,8 +39,9 @@
 		
 - **Riven Ranges**
 	- Usage: `a/range Archgun/Rifle/Shotgun/Pistol/Melee -p 3 -n 1 -d 1.5`
-		- `-p` `-n` Designates how many positives/negatives the riven has.
-		- `-d` Disposition to scale ranges.
+		- `-p` `-n` - Designates how many positives/negatives the riven has.
+		- `-d` - Disposition to scale ranges.
+		- `-r` - Riven rank
 
 - **Riven Browser**
 	- Usage: `a/r <weapon> <optional args>`
