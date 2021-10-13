@@ -37,6 +37,15 @@
 	- Use `-d #` to override the disposition.
 	- Alt Usage: `a/grade https://warframe.market/auction/613eb4eebf237003f3ffb7a1` (Only wfm links work)
 		
+- **WFM Price Alerts**
+	- Usage: `a/ma sell/buy price item` Ex: `a/ma sell 150 ember prime set`
+	- Additional: `a/mr id/"clear"`, `a/ml` - Embed scroller of configurations.
+	- The item query will find 10 matches to it and let you know if there are multiple and give you ids to select your item if you're lazy.
+	- Order behavior
+		- Sell: listing price ≤ config price
+		- Buy: listing price ≥ config price.
+	- The matches it finds will DM you an embed with the id, seller, quantity, and a copy/paste message.
+
 - **Riven Ranges**
 	- Usage: `a/range Archgun/Rifle/Shotgun/Pistol/Melee -p 3 -n 1 -d 1.5`
 		- `-p` `-n` - Designates how many positives/negatives the riven has.
