@@ -36,6 +36,9 @@
 		- You only need to designate a non-recoil negative. Recoil is automatically handled as a negative if it has positive stats.
 	- Use `-d #` to override the disposition.
 	- Alt Usage: `a/grade https://warframe.market/auction/613eb4eebf237003f3ffb7a1` (Only wfm links work)
+
+- **Unrolled Riven Prices**
+	- Usage: `a/u weapon` `a/unroll weapon`
 		
 - **WFM Price Alerts**
 	- Usage: `a/ma sell/buy price item` Ex: `a/ma sell 150 ember prime set`
