@@ -41,13 +41,18 @@
 	- Usage: `a/u weapon` `a/unroll weapon`
 		
 - **WFM Price Alerts**
-	- Usage: `a/ma sell/buy price item` Ex: `a/ma sell 150 ember prime set`
+	- Usage: 
+	 	- `a/wts price item`
+		- `a/wtb price item`
+	- Args:
+		- `-r rank_int`
 	- Additional: `a/mr id/"clear"`, `a/ml` - Embed scroller of configurations.
-	- The item query will find 10 matches to it and let you know if there are multiple and give you ids to select your item if you're lazy.
-	- Order behavior
-		- Sell: listing price ≤ config price
-		- Buy: listing price ≥ config price.
-	- The matches it finds will DM you an embed with the id, seller, quantity, and a copy/paste message.
+	- The item query will find 10 matches to it and let you know if there are multiple and give you ids to select your item if you're lazy to type out the full name.
+	- The matches it finds will DM you an embed with the id, seller, rank, quantity, and a copy/paste message.
+	
+|Normal Behavior|Relic Behavior|
+|--|--|
+|Mods/Arcanes: >= config rank<br>Sell: ≤ config price<br>Buy: ≥ config price|Equal to rank<br>0 - All<br>1 - Intact<br>2 - Exceptional<br>3 - Flawless<br>4 - Radiant|
 
 - **Riven Ranges**
 	- Usage: `a/range Archgun/Rifle/Shotgun/Pistol/Melee -p 3 -n 1 -d 1.5`
