@@ -52,7 +52,7 @@
 	
 |Normal Behavior|Relic Behavior|
 |--|--|
-|Mods/Arcanes: >= config rank<br>WTS: ≥ config price<br>WTB: ≤ config price|Equal to rank<br>0 - All<br>1 - Intact<br>2 - Exceptional<br>3 - Flawless<br>4 - Radiant|
+|Mods/Arcanes: == config rank<br>WTS: ≥ config price<br>WTB: ≤ config price|Equal to rank<br>0 - All<br>1 - Intact<br>2 - Exceptional<br>3 - Flawless<br>4 - Radiant|
 
 - **Riven Ranges**
 	- Usage: `a/range Archgun/Rifle/Shotgun/Pistol/Melee -p 3 -n 1 -d 1.5`
