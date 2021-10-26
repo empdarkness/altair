@@ -40,6 +40,13 @@
 - **Unrolled Riven Prices**
 	- Usage: `a/u weapon` `a/unroll weapon`
 		
+- **WFM Riven Auction Alerts**
+	- Usage:
+		- `a/auction add/remove/list auction_id/auction_url`
+	- Auction updated (price change, desc change, etc.)
+	- New/Removed Bids
+	- Auction close/winner
+
 - **WFM Price Alerts**
 	- Usage: 
 	 	- `a/wts price item`
