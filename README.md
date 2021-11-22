@@ -1,7 +1,7 @@
 
 # Altair - Command List - [Invite](https://discord.com/api/oauth2/authorize?client_id=522879744786563075&permissions=0&scope=bot%20applications.commands) - [Discord Server](https://discord.gg/7EgHQ8Zm8m)
 
-### Note: A lot of the commands have been converted to slashs, however the basic documentation still applies.
+### Note: A lot of the commands have been converted to slash, however the basic documentation still applies.
 ## Warframe
 - **Riven Sniper - RM & WFM**
 	- Usage: `a/sa dm/#channel weapon *args`
