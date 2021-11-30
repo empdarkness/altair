@@ -7,7 +7,7 @@
 	- Usage: `/sniper`
 	- To set it up to a guild channel, you will need administrator perms. Use route argument.
 	- Rivens
-		- Behavior is extremely similar to the riven browser, it needs to be using the same [arguments](https://github.com/empdarkness/altair/blob/master/rm.md).
+		- When specifying stats, use the [arguments](https://github.com/empdarkness/altair/blob/master/rm.md) listed here.
 		- Notices are posted with the most recent relist by same seller/list by another seller/similar seen.
 			- The criteria for being seen with another seller is a 1 to 1 copy of the stats.<br>Relisted requires the seller to be the same and have the same stats, doesnt show if a slight variation.<br>Similar requires the seller to be different, matching stat names, and a variation in stat values.
 			<br>🔸 Riven was seen with another seller. Emperor - 1/99999
