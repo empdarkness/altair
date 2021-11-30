@@ -26,7 +26,7 @@
 		- Percentage Method - Greater than or equal to, less than or equal to, or equal to.
 	- Price - It will only post rivens equal to or below this price
 	- Optional Text - You can add text to be sent with the posting, you can use up to 255 characters. In order to use a role, type it out like you're gonna ping it.
-	- `a/sb dm/guild -a/-r/-c user` - RM User Blacklist (Guild/Direct Message)
+	- `a/sb dm/guild -a/-r/-c user` - User Blacklist (Guild/Direct Message)
 		- Ex: `a/sb dm -a user1,user2,user3`
 		- View: `a/bl` in dms or guild to view respective list
 		- You will need admin perms to add a user to the guild blacklist. It will default to DM mode if you try and do not have admin perms.
