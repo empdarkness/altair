@@ -55,7 +55,7 @@
 
 - **WFM Price Alerts**
 	- Usage: `/market`
-	- The item query will find 10 matches to it and let you know if there are multiple and give you ids to select your item if you're lazy to type out the full name.
+	- The item query has autocomplete and will find 10 matches to it.
 	- The matches it finds will DM you an embed with the id, seller, rank, quantity, and a copy/paste message.
 	
 |Item Behavior|Relic Behavior|
