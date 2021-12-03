@@ -16,6 +16,9 @@
 			<br>🔹 RM 15 days ago
 			<br>👀 Similar riven spotted from: Emperor - pmo
 			<br>👀 TC 15 days ago
+		- Weapon wildcards
+			- Riven type - `Archgun` `Shotgun` `Rifle` `Pistol` `Melee`
+			- Everything - `All` `Any`
 		- Positive stat lists - Allows a single spot to be held by multiple stats
 			- Only one stat between the group of `~` needs to match.
 			- Ex: `ele~tox~cold~heat ms cd`
