@@ -16,9 +16,19 @@
 			<br>🔹 RM 15 days ago
 			<br>👀 Similar riven spotted from: Emperor - pmo
 			<br>👀 TC 15 days ago
+		- Positive stat lists - Allows a single spot to be held by multiple stats
+			- Only one stat between the group of `~` needs to match.
+			- Ex: `ele~tox~cold~heat ms cd`
 		- 2p1n - Toggling this will make the configuration only look for rivens with 2 positives and 1 negative. Use this with None as a negative to only look for 2p0n.
 		- Automatic Grading - Grades it for every variant of the weapon.
 		- Endo/plat checking - Endo per plat value for endo roll sniping. There is a catch to wfm rivens with infinite buyout, this will only work on those with a starting price equal to or above 100, this is to reduce the spam of 1 plat infinite buyouts.
+		- Minimum endo - Self explanatory
+		- Roll count range - Only post rivens between this range. Ex: `0-0` for unrolled, `0-10` for any between 0 and 10
+		- Minimum disposition - One variant has to have a disposition above or equal to this
+		- Positive stat range/grade filtering
+			- Usage: `ms101-105` `ms101-105~106-110`
+			- Use a `~` to add an additional range to the stat
+			- Space apart different stats
 	- Lich/Sisters
 		- Weapon - Only lets you select Kuva/Tenet weapons and has a wildcard for all weapons `Any`/`All`.
 		- Element - Only lets you select the current available elements for liches and has an option for every element.
