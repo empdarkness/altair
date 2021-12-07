@@ -40,7 +40,7 @@
 	- Price - It will only post rivens equal to or below this price
 	- Optional Text - You can add text to be sent with the posting, you can use up to 255 characters. In order to use a role, type it out like you're gonna ping it.
 	- `a/sb dm/guild -a/-r/-c user` - User Blacklist (Guild/Direct Message)
-		- Ex: `a/sb dm -a user1,user2,user3`
+		- Ex: `a/sb dm -a user1, user2, user3`
 		- View: `a/bl` in dms or guild to view respective list
 		- You will need admin perms to add a user to the guild blacklist. It will default to DM mode if you try and do not have admin perms.
 		- Modes:
@@ -118,19 +118,19 @@
 - **WFConfig**
 	- Usage: `/wfconfig`
 	- Needs administrator permissions to use.
-	- Types: baro, gftl, invasions, arbitration
-		- Automatic posting when one of the four things occurs:
-			- Baro Ki'Teer
-			- Gift From the Lotus
-			- Invasions (Orokin Reactor/Catalyst only)
-			- Arbitrations (with optional role mentions, see below for formatting)
-				- Factions: `Grineer`, `Infested`, `Corpus`, `Orokin`
-				- Types: `Defense`, `Survival`, `Salvage`..
-				- Faction+Types: `Grineer Defense`, `Corpus Survival`..
-				- Nodes: `Sechura`, `Helene`, `Hydron`..
+	- Every type except arbitration has optional text.
+	- Automatic posting when one of the four things occurs:
+		- Baro Ki'Teer
+		- Gift From the Lotus
+		- Invasions (Orokin Reactor/Catalyst only)
+		- Arbitrations (with optional role mentions, see below for formatting)
+			- Factions: `Grineer`, `Infested`, `Corpus`, `Orokin`
+			- Types: `Defense`, `Survival`, `Salvage`..
+			- Faction+Types: `Grineer Defense`, `Corpus Survival`..
+			- Nodes: `Sechura`, `Helene`, `Hydron`..
 ## Patron Exclusive
-- T1+ **Stalk**
-	- Usage: `/stalk`
+- T1+ **User Alert**
+	- Usage: `/useralert`
 	- Will send you a DM notification if somebody interacts with the WFM site at all, including while invisible.
 - T2+ **Name History**
 	- Usage: `/namehistory`
