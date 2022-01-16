@@ -143,7 +143,7 @@
 ## Misc
 - **Coinflip**
 	- Usage: `/flip`
-		- This also involves the coin being able to land on its side. 1/6000
+		- This also involves the coin being able to land on its side. 1/60,000
 
 - **Remindme**
 	- Usage: `a/remindme timestamp reminder`
