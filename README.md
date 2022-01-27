@@ -76,6 +76,12 @@
 |--|--|
 |Mods/Arcanes: == config rank<br>WTS: ≥ config price<br>WTB: ≤ config price|Equal to rank<br>0 - All<br>1 - Intact<br>2 - Exceptional<br>3 - Flawless<br>4 - Radiant|
 
+- **GDPR Parser**
+	- Usage: `a/profile` `a/trades` with attached file relative to the command.
+		- Profile only accepts the non trade-data file.
+		- Trades only accepts t he trade-data file, if you have multiple, append them to a single text file.
+		- The data is not stored, it is deleted once it is loaded in for parsing.
+
 - **Riven Ranges**
 	- Usage: `a/range Archgun/Rifle/Shotgun/Pistol/Melee -p 3 -n 1 -d 1.5`
 		- `-p` `-n` - Designates how many positives/negatives the riven has.
