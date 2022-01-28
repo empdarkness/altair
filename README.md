@@ -79,7 +79,7 @@
 - **GDPR Parser**
 	- Usage: `a/profile` `a/trades` with attached file relative to the command.
 		- Profile only accepts the non trade-data file.
-		- Trades only accepts t he trade-data file, if you have multiple, append them to a single text file.
+		- Trades only accepts the trade-data file, if you have multiple, append them to a single text file.
 		- The data is not stored, it is deleted once it is loaded in for parsing.
 
 - **Riven Ranges**
