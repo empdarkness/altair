@@ -146,10 +146,21 @@
 	- Usage: `a/rh acceltra cc cd ms rec` `a/rh acceltra cc cd ms -z`
 	- Lets you see the 5 most recent listings of a specific stat roll, up to a total of 15.
 
+## Black Desert Online
+- **Pearl Outfit History**
+	- Usage: `a/outfit` `a/outfit 30`
+	- Will show the total amount of listed outfits seen within the last 7 days or specified amount of days.<br>The bot started scraping on 1/31/2022.
+	- Currently this is only available for NA PC.
+- **Average Trash Loot**
+	- Usage: `a/avg striker sycraia`
+
+- **Most of X Drop**
+	- Usage `a/most caphras`
+
 ## Misc
 - **Coinflip**
 	- Usage: `/flip`
-		- This also involves the coin being able to land on its side. 1/60,000
+	- This also involves the coin being able to land on its side. 1/60,000
 
 - **Remindme**
 	- Usage: `a/remindme timestamp reminder`
