@@ -147,9 +147,9 @@
 	- Lets you see the 5 most recent listings of a specific stat roll, up to a total of 15.
 
 ## Black Desert Online
-- **Pearl Outfit History**
-	- Usage: `a/outfit` `a/outfit 30`
-	- Will show the total amount of listed outfits seen within the last 7 days or specified amount of days.<br>The bot started scraping on 1/31/2022.
+- **Pearl Item History**
+	- Usage: `a/pearl` `a/pearl 30`
+	- Will show the total amount of listed outfits and buff items (Moon, Kama, VP) seen within the last 7 days or specified amount of days.<br>The bot started scraping on 1/31/2022.
 	- Currently this is only available for NA PC.
 - **Average Trash Loot**
 	- Usage: `a/avg striker sycraia`
