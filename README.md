@@ -83,10 +83,9 @@
 		- The data is not stored, it is deleted once it is loaded in for parsing.
 
 - **Riven Ranges**
-	- Usage: `a/range Archgun/Rifle/Shotgun/Pistol/Melee -p 3 -n 1 -d 1.5`
-		- `-p` `-n` - Designates how many positives/negatives the riven has.
-		- `-d` - Disposition to scale ranges.
-		- `-r` - Riven rank
+	- Usage: `/range`
+		- Shows riven ranges for a specific weapon.
+		- Has autocomplete and allows selection as the weapon type as a weapon. Use this in conjunction with the disposition override for seeing specific dispos.
 
 - **Riven Browser**
 	- Usage: `a/r <weapon> <optional args>`
