@@ -87,21 +87,25 @@
 		- Shows riven ranges for a specific weapon.
 		- Has autocomplete and allows selection as the weapon type as a weapon. Use this in conjunction with the disposition override for seeing specific dispos.
 
+- **Loadout Parser**
+	- Usage: `/loadout`
+		- Attempts to find the riven on your selected slot, grades it, and gives you the riven.market import string.
+		- Requires the share loadouts permission from [here](https://www.warframe.com/user) under User Information - Data Permissions.
+		- If you have the permissions turned on and its still not working after a couple of minutes, toggle it off, save, and then turn it back on and save. Wait a couple min after and it should work again.
+
 - **Riven Browser**
-	- Usage: `a/r <weapon> <optional args>`
+	- Usage: `/browse`
 		- Gets list of rivens from provided args.
 		- Sorted by price
-		- Warframe.Market rivens have a filter. They will not appear if the owner has not been online in 7 days.
 		- The posted embed includes riven stats and a copy-paste message
 		- Argument usage can be found [**here**](https://github.com/empdarkness/altair/blob/master/rm.md)
 		
 - **Scaling Calculator**  
-	 - Usage: `a/s "Enemy or Specter" CurrentLevel MissionLevel new/old/current`
-		 - Calculates DPH, Armor, Health, Shields, EHP, and Damage Reduction
+	 - Usage: `/scaling`
+		 - Calculates DPS/DPH or Damage Multiplier, Armor, Health, Shields, EHP, and Damage Reduction
 		 - Can use old/new/current scaling formulas. Default usage is current scaling, If mission level is above 100, it will change to calculate for Steel Path Scaling. You can override this.
 		 - Enemies do not have public base damage values. As such, the only damage related thing shown is their multiplier.
 		 - When calculating things such as EHP, there is no consideration in damage types. 
-		 - You can append `-w Exergis` to the command to have it calculate the scaled damage of any weapon.
 - **Arby**
 	- Usage: `/arby`
 		- Posts current arbitration.
