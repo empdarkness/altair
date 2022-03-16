@@ -1,4 +1,4 @@
-### This is a full list of arguments for the `a/r` command.
+### This is a full list of arguments for the `/browse` command.
 -  Usage: `/browse`
   - Params:
     - Weapon (Autocomplete only)
