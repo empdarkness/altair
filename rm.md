@@ -1,10 +1,11 @@
 ### This is a full list of arguments for the `a/r` command.
--  Usage: `a/r kronen -p CritDmg,CritChance -n Impact`
-
-- `-p` to designate positives
-- `-n` to designate negatives
-- `-g` to turn on grading, it will attempt to grade every variant of the weapon with their respective dispositions for that riven. This will attempt to grade as if the riven was maxed.
-- If using arguments and the weapon has multiple words, **you need to put quotes around the full name**.
+-  Usage: `/browse`
+  - Params:
+    - Weapon (Autocomplete only)
+    - Positives (Limit 3)
+    - Negatives (Limit 1)
+    - Grading
+    - Polarity
 - The arguments are not case sensitive.
 
 |Extra Arguments|Description|
