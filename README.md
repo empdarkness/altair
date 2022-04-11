@@ -71,10 +71,8 @@
 	- Usage: `/market`
 	- The item query has autocomplete and will find 10 matches to it.
 	- The matches it finds will DM you an embed with the id, seller, rank, quantity, and a copy/paste message.
-	
-|Item Behavior|Relic Behavior|
-|--|--|
-|Mods/Arcanes: == config rank<br>WTS: ≥ config price<br>WTB: ≤ config price|Equal to rank<br>0 - All<br>1 - Intact<br>2 - Exceptional<br>3 - Flawless<br>4 - Radiant|
+
+
 
 - **GDPR Parser**
 	- Usage: `a/profile` `a/trades` with attached file relative to the command.
