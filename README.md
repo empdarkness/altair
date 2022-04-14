@@ -48,6 +48,8 @@
 			- `-a` - Adds to blacklist
 			- `-r` - Removes from blacklist
 			- `-c` - Clears blacklist, user arg wont do anything
+	- `a/cbl #channel`
+		- Allows you to redirect every blacklisted seller to a specific channel.
 
 - **Manual Grading**
 	- Usage: `a/grade tenet_envoy 64cc 52.4cd 45.8ms -41.3impact` `a/g vectis 69.5ele 88.8cd 76.8heat 58.5recoil`
