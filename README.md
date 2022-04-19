@@ -58,6 +58,14 @@
 	- Use `-d #` to override the disposition.
 	- Alt Usage: `a/grade https://warframe.market/auction/613eb4eebf237003f3ffb7a1` (Only wfm links work)
 
+- **Manual Grading - Image**
+	- Usage: `a/gi catchmoon 61.6ms 49cd 40.9fr -45.9imp -mr 16 -ro 9999 -p nar -r 8`
+		- `-mr` - Mastery rank 8-16
+		- `-ro` - Rerolls 0-9999
+		- `-p` - Polarity (mad, vaz, nar)
+		- `-r` - Rank
+		- `-d` - Disposition override
+
 - **Unrolled Riven Prices**
 	- Usage: `/unroll`
 	- Has weapon autocomplete
