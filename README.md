@@ -98,6 +98,7 @@
 - **Loadout Parser**
 	- Usage: `/loadout`
 		- Attempts to find the riven on your selected slot, grades it, and gives you the riven.market import string.
+		- This will also show the actual values of all variants, so if you have it equipped on prime, it will also show the real values of non prime.
 		- Requires the share loadouts permission from [here](https://www.warframe.com/user) under User Information - Data Permissions.
 		- If you have the permissions turned on and its still not working after a couple of minutes, toggle it off, save, and then turn it back on and save. Wait a couple min after and it should work again.
 
@@ -167,9 +168,6 @@
 	- Usage: `a/pearl` `a/pearl 30`
 	- Will show the total amount of listed outfits and buff items (Moon, Kama, VP) seen within the last 7 days or specified amount of days.<br>The bot started scraping on 1/31/2022.
 	- Currently this is only available for NA PC.
-- **Average Trash Loot**
-	- Usage: `a/avg striker sycraia`
-
 - **Most of X Drop**
 	- Usage `a/most caphras`
 
