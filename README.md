@@ -40,16 +40,10 @@
 		- Percentage Method - Greater than or equal to, less than or equal to, or equal to.
 	- Price - It will only post rivens equal to or below this price
 	- Optional Text - You can add text to be sent with the posting, you can use up to 255 characters. In order to use a role, type it out like you're gonna ping it.
-	- `a/sb dm/guild -a/-r/-c user` - User Blacklist (Guild/Direct Message)
-		- Ex: `a/sb dm -a user1, user2, user3`
-		- View: `a/bl` in dms or guild to view respective list
+	- `/sniper blacklist`
+		- Call view in dms or guild to view respective list
 		- You will need admin perms to add a user to the guild blacklist. It will default to DM mode if you try and do not have admin perms.
-		- Modes:
-			- `-a` - Adds to blacklist
-			- `-r` - Removes from blacklist
-			- `-c` - Clears blacklist, user arg wont do anything
-	- `a/cbl #channel`
-		- Allows you to redirect every blacklisted seller to a specific channel.
+		- Channel allows you to redirect every blacklisted seller to a specific channel.
 
 - **Manual Grading**
 	- Usage: `a/grade tenet_envoy 64cc 52.4cd 45.8ms -41.3impact` `a/g vectis 69.5ele 88.8cd 76.8heat 58.5recoil`
