@@ -170,6 +170,11 @@
 	- Usage `a/most caphras`
 
 ## Misc
+- **Starboard**
+	- Usage: `/starboard`
+	- Requires administrator permissions to setup.
+	- Will repost the message to the designated channel when the ⭐ reacts reach the designated amount.
+	
 - **Coinflip**
 	- Usage: `/flip`
 	- This also involves the coin being able to land on its side. 1/60,000
