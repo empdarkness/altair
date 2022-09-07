@@ -157,9 +157,6 @@
 - T2+ **Riven History**
 	- Usage: `a/rh acceltra cc cd ms rec` `a/rh acceltra cc cd ms -z`
 	- Lets you see the 5 most recent listings of a specific stat roll, up to a total of 15.
-- T2+ **Tradechat Sniper**
-	- Usage: `/patreon tc`
-	- This enables trade chat as a source for the riven configurations. It is very experimental and may have errors.
 
 ## Black Desert Online
 - **Pearl Item History**
