@@ -129,7 +129,7 @@
 - **Nightwave**
 	- Usage: `/nightwave`
 		- Posts current nightwave with standing rewards.
--- **Darvo**
+- **Darvo**
 	- Usage: `/darvo`
 		- Will DM you every time Darvo brings the item you designated.
 		- The current selection of items is pre-configured but will expand over time as he brings items the bot has not seen before.
