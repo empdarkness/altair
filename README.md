@@ -2,7 +2,7 @@
 # Altair - Command List - [Invite](https://discord.com/api/oauth2/authorize?client_id=522879744786563075&permissions=0&scope=bot%20applications.commands) - [Discord Server](https://discord.gg/7EgHQ8Zm8m)
 
 ### Note: Most commands are now slash based, however some are still not. <br> If you need help setting up anything, feel free to join the Discord and ask.
-
+### [FAQ/Common Issues](https://github.com/empdarkness/altair/blob/master/faq.md)
 ## Warframe
 - **Riven/Lich Sniper - RM & WFM**
 	- Usage: `/sniper`
