@@ -6,7 +6,7 @@
 ## Warframe
 - **Riven/Lich Sniper - RM & WFM**
 	- Usage: `/sniper`
-	- To set it up to a guild channel, you will need administrator perms. Use route argument.
+	- To set it up to a guild channel, you will need administrator perms. Use `/gsniper`
 	- Rivens
 		- When specifying stats, use the [arguments](https://github.com/empdarkness/altair/blob/master/rm.md) listed here.
 		- Notices are posted with the most recent relist by same seller/list by another seller/similar seen.
@@ -44,7 +44,6 @@
 		- Call view in dms or guild to view respective list
 		- You will need admin perms to add a user to the guild blacklist. It will default to DM mode if you try and do not have admin perms.
 		- Channel allows you to redirect every blacklisted seller to a specific channel.
-
 - **Manual Grading**
 	- Usage: `a/grade tenet_envoy 64cc 52.4cd 45.8ms -41.3impact` `a/g vectis 69.5ele 88.8cd 76.8heat 58.5recoil`
 	- Slash: `/grade`
@@ -52,7 +51,6 @@
 		- You only need to designate a non-recoil negative. Recoil is automatically handled as a negative if it has positive stats.
 	- Use `-d #` to override the disposition.
 	- Alt Usage: `a/grade https://warframe.market/auction/613eb4eebf237003f3ffb7a1` (Only wfm links work)
-
 - **Manual Grading - Image**
 	- Usage: `a/gi catchmoon 61.6ms 49cd 40.9fr -45.9imp -mr 16 -ro 9999 -p nar -r 8`
 		- `-mr` - Mastery rank 8-16
@@ -60,6 +58,11 @@
 		- `-p` - Polarity (mad, vaz, nar)
 		- `-r` - Rank
 		- `-d` - Disposition override
+- **Auto Grading**
+	- Normal: `a/ocr`
+	- Chinese: `a/cg "weapon name" *psm6`
+	- In cases where weapon is unable to be parser, please provide it through the command.
+	- Args: psm6 argument is optional extra method of parsing incase default fails.
 
 - **Unrolled Riven Prices**
 	- Usage: `/unroll`
@@ -71,39 +74,31 @@
 	- New/Removed Bids
 	- Auction close/winner/deletion
 	- Can use wfm auction ids or link
-
 - **WFM Price Alerts**
 	- Usage: `/market`
 	- The item query has autocomplete and will find 10 matches to it.
 	- The matches it finds will DM you an embed with the id, seller, rank, quantity, and a copy/paste message.
-
-
-
 - **GDPR Parser**
 	- Usage: `a/profile` `a/trades` with attached file relative to the command.
 		- Profile only accepts the non trade-data file.
 		- Trades only accepts the trade-data file, if you have multiple, append them to a single text file.
 		- The data is not stored, it is deleted once it is loaded in for parsing.
-
 - **Riven Ranges**
 	- Usage: `/range`
 		- Shows riven ranges for a specific weapon.
 		- Has autocomplete and allows selection as the weapon type as a weapon. Use this in conjunction with the disposition override for seeing specific dispos.
-
 - **Loadout Parser**
 	- Usage: `/loadout`
 		- Attempts to find the riven on your selected slot, grades it, and gives you the riven.market import string.
 		- This will also show the actual values of all variants, so if you have it equipped on prime, it will also show the real values of non prime.
 		- Requires the share loadouts permission from [here](https://www.warframe.com/user) under User Information - Data Permissions.
 		- If you have the permissions turned on and its still not working after a couple of minutes, toggle it off, save, and then turn it back on and save. Wait a couple min after and it should work again.
-
 - **Riven Browser**
 	- Usage: `/browse`
 		- Gets list of rivens from provided args.
 		- Sorted by price
 		- The posted embed includes riven stats and a copy-paste message
-		- Argument usage can be found [**here**](https://github.com/empdarkness/altair/blob/master/rm.md)
-		
+		- Argument usage can be found [**here**](https://github.com/empdarkness/altair/blob/master/rm.md)	
 - **Scaling Calculator**  
 	 - Usage: `/scaling`
 		 - Calculates DPS/DPH or Damage Multiplier, Armor, Health, Shields, EHP, and Damage Reduction
@@ -133,7 +128,6 @@
 	- Usage: `/darvo`
 		- Will DM you every time Darvo brings the item you designated.
 		- The current selection of items is pre-configured but will expand over time as he brings items the bot has not seen before.
-
 - **WFConfig**
 	- Usage: `/wfconfig`
 	- Needs administrator permissions to use.
@@ -142,29 +136,73 @@
 		- Baro Ki'Teer
 		- Gift From the Lotus
 		- Invasions (Orokin Reactor/Catalyst only)
+		- PoE Day/Night Cycle with optional role pings
+			- Role Format: `Day` `Night`
+			- Min arg: Minutes to post in advance of next cycle. (Ex: 5 min before night)
 		- Arbitrations (with optional role mentions, see below for formatting)
 			- Factions: `Grineer`, `Infested`, `Corpus`, `Orokin`
 			- Types: `Defense`, `Survival`, `Salvage`..
 			- Faction+Types: `Grineer Defense`, `Corpus Survival`..
 			- Nodes: `Sechura`, `Helene`, `Hydron`..
-## Patron Exclusive
+- **Summary**
+	- Usage: `/summary`
+	- Shows some similar data to the GDPR /profile parser.
+	- This command is always up to date to your current ingame profile, it sees the same data as if you were to /profile someone ingame.
+
+## Discord Subscription Exclusive
 - T1+ **User Alert**
 	- Usage: `/useralert`
 	- Will send you a DM notification if somebody interacts with the WFM site at all, including while invisible.
-- T2+ **Name History**
+- T1+ **Name History**
 	- Usage: `/namehistory`
 	- Will allow you to see the name history of every user seen by the bot. This only works if said users are changing their names on the sites and not making alts.
-- T2+ **Riven History**
+- T1+ **Riven History**
 	- Usage: `a/rh acceltra cc cd ms rec` `a/rh acceltra cc cd ms -z`
 	- Lets you see the 5 most recent listings of a specific stat roll, up to a total of 15.
+- T2+ **Trade Chat**
+	- Automatically turned on for sniper configurations.
+	- Usage: `/tc`
+	- Redirects trade chat postings to a different channel than normal configs. Blacklist channel has higher priority still.
 
 ## Black Desert Online
+- **Default Region**
+	- Usage: `/bdo region`
+- **Family Lookup**
+	- Usage: `/bdo whois`
+	- Usage: `/bdo whois Emperor`
+	- Defaults to NA region, but also supports EU through region argument.
+	- Can reveal guilds of people who have them as private.
 - **Pearl Item History**
-	- Usage: `a/pearl` `a/pearl 30`
+	- Usage: `/bdo pearl` `/bdo pearl 30`
 	- Will show the total amount of listed outfits and buff items (Moon, Kama, VP) seen within the last 7 days or specified amount of days.<br>The bot started scraping on 1/31/2022.
 	- Currently this is only available for NA PC.
 - **Most of X Drop**
-	- Usage `a/most caphras`
+	- Usage: `a/most item dropRate`
+	- Usage: `a/most caphras 200`
+	- Will default to 200 drop rate if not specified.
+- **Recent Guild Joins**
+	- Usage: `/bdo recentjoins`
+- **Guild Gearscore through Garmoth.com**
+	- `/bdo gs set`
+	- Sets a garmoth.com character for your gearscore calculations.
+	- This will always use the first build. The GS formula is highest AP+DP. It does not involve both AP.
+	- `/bdo gs view`
+	- Allows you to view another person's linked characters.
+	- `/bdo gs guild`
+	- If a guild is configured for the server you call this in, it will show the gearscore of each person in the guild who has linked their builds.
+- **Guild/Alliance Autorole**
+	- The following commands require Administrator permission to use.
+	- `/bdo guild setguild`
+	- Sets up a guild for the discord server.
+	- `/bdo guild togglerole`
+	- Sets up roles for automatic role management. The supported role types are guild member, alliance member, and guest.
+	- These roles will be checked every 5 minutes with the internal scanner.
+	- A role may only be used once. Attempting to use a role that is already assigned a type will cause it to be removed from the configuration.
+	- `/bdo guild setalliance`
+	- Space apart the guild names for bigger alliances.
+	- `/bdo guild clear`
+	- Resets/removes everything BDO related from a server. 
+
 
 ## Misc
 - **Starboard**
