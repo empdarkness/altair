@@ -3,6 +3,7 @@
 
 ### Note: Most commands are now slash based, however some are still not. <br> If you need help setting up anything, feel free to join the Discord and ask.
 ### [FAQ/Common Issues](https://github.com/empdarkness/altair/blob/master/faq.md)
+### Note: This page will be defunct soon and everything will be moved over [here](https://empx.cc/).
 ## Warframe
 - **Riven/Lich Sniper - RM & WFM**
 	- Usage: `/sniper`
@@ -139,6 +140,13 @@
 		- PoE Day/Night Cycle with optional role pings
 			- Role Format: `Day` `Night`
 			- Min arg: Minutes to post in advance of next cycle. (Ex: 5 min before night)
+   		- Aya (Triggers an automatic posting of the following bounties)
+			- Fortuna:
+				- Enemy levels: 40-60, 100-100
+				- Bounties type: Hunter-Killer, Network Collapse, Distract and Divert
+			- Cetus:
+				- Enemy levels: 40-60
+				- Bounties type: Find the Hidden Artifact, Capture the Grineer Agent
 		- Arbitrations (with optional role mentions, see below for formatting)
 			- Factions: `Grineer`, `Infested`, `Corpus`, `Orokin`
 			- Types: `Defense`, `Survival`, `Salvage`..
@@ -202,7 +210,10 @@
 	- Space apart the guild names for bigger alliances.
 	- `/bdo guild clear`
 	- Resets/removes everything BDO related from a server. 
-
+- **Guild Autoban**
+	- `/bdo guild setbanned`
+	- Sets a guild to auto-ban from the configured Discord. This is executed from a user joining the server with a configured name or running `/bdo ign` while being in a banned guild.
+	- Currently this does not unban users if they are no longer in a banned guild.
 
 ## Misc
 - **Starboard**
