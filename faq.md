@@ -1,3 +1,4 @@
+### Note: This page is now defunct/outdated. See [empx.cc](https://empx.cc) for more up to date info, thanks.
 ## Warframe.market is delayed.
 A: Unfortunately this is out of my control, the public api they provide updates very slowly, like once every 2 or so minutes.
 
