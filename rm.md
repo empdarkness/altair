@@ -1,3 +1,4 @@
+### Note: This page is now defunct/outdated. See [empx.cc](https://empx.cc) for more up to date info, thanks.
 ### This is a full list of arguments for the `/browse` command.
 -  Usage: `/browse`
   - Params:
