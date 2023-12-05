@@ -3,7 +3,7 @@
 
 ### Note: Most commands are now slash based, however some are still not. <br> If you need help setting up anything, feel free to join the Discord and ask.
 ### [FAQ/Common Issues](https://github.com/empdarkness/altair/blob/master/faq.md)
-### Note: This page will be defunct soon and everything will be moved over [here](https://empx.cc/).
+### Note: This page is now defunct/outdated. See [empx.cc](https://empx.cc) for more up to date info, thanks.
 ## Warframe
 - **Riven/Lich Sniper - RM & WFM**
 	- Usage: `/sniper`
